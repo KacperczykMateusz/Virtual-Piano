@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    margin-top: 15%;
+    text-align: center;
+}
+
+kbd {
+    display: inline-block;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.white-keys, .black-keys {
+    display: inline-block;
+}
+
+.white-keys {
+    margin: auto;
+    width: 100%;
+}
+.white-keys kbd {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: -4px;
+    height: 20px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.black-keys kbd{
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: black;
+    height: 20px;
+    width: 30px;
+    bottom: 222px;
+    font-size: 20px;
+}
+#W_key {
+    right: 63px;
+}
+#E_key {
+    right: 44px;
+}
+#T_key {
+    left: 21px;
+}
+#Y_key {
+    left: 40px;
+}
+#U_key {
+    left: 58px;
+}
